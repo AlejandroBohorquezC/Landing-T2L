@@ -2,7 +2,7 @@
   font-family: 'Quicksand', sans-serif;
   line-height: 1.5;
   font-weight: 500;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 body {
@@ -80,6 +80,42 @@ body {
 }
 
 .card {
-  width: 33.33%;
+  width: 24%;
+  margin: 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  flex-direction: column;
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.card-texts {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 35.16px;
+  margin: 20px 0 0 0;
+}
+
+.card-link {
+  text-decoration: none;
+  text-align: end;
+  width: 100%;
+  color: #00BDD6;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 21.98px;
 }
 
