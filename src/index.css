@@ -1,0 +1,85 @@
+:root {
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  background-color: #ffffff;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.direction {
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.separacion {
+  width: 90%;
+  margin: 10px 5%;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 46.88px;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 26.37px;
+  margin: 20px 0px;
+  color: #6F7582;
+}
+
+.main-image {
+  height: 503px;
+}
+
+.resalto {
+  background-color: #8ADEE9;
+  color: #353535;
+  border-radius: 40px;
+  text-align: center;
+  padding: 10px 50px;
+  width: 50%;
+}
+
+.big-size {
+  font-size: 24px;
+  line-height: 35.16px;
+}
+
+.reduccion {
+  width: 75%;
+}
+
+.second-image {
+  width: 600px;
+}
+
+.big-title {
+  font-size: 48px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.m-t {
+  margin-top: 5px;
+}
+
+.full-width {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 33.33%;
+}
+
