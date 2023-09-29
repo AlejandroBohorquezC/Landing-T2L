@@ -1,14 +1,14 @@
-import React from 'react'
 import NavBar from '../components/NavBar'
 import { Button } from '@mui/material'
 import Card from '../components/Card'
 
 import {Swiper, SwiperSlide} from 'swiper/react';
-import { Navigation, Pagination, A11y } from 'swiper/modules';
+import { Pagination, A11y } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import Footer from '../components/Footer';
 
 const Home = () => {
     return (
@@ -162,6 +162,7 @@ const Home = () => {
                                     <h3 className="text mentor">Andres Corral</h3>
                                     <p className="text rol">Product Manager</p>
                                     <p className="text puesto">Co-founder</p>
+                                    <img src="assets\image 14.png" alt="" />
                                 </div>
                             </div>
                             <div className="container direction b-s card-mentor">
@@ -172,6 +173,7 @@ const Home = () => {
                                     <h3 className="text mentor">Daniel Lopez</h3>
                                     <p className="text rol">Software Engineer</p>
                                     <p className="text puesto">Co-founder</p>
+                                    <img src="assets\image 14.png" alt="" />
                                 </div>
                             </div>
                             <div className="container direction b-s card-mentor">
@@ -182,6 +184,7 @@ const Home = () => {
                                     <h3 className="text mentor">Paul Vidal</h3>
                                     <p className="text rol">Tech Craftsman</p>
                                     <p className="text puesto">Mentor</p>
+                                    <img src="assets\image 14.png" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -196,6 +199,7 @@ const Home = () => {
                                     <h3 className="text mentor">Andres Corral</h3>
                                     <p className="text rol">Product Manager</p>
                                     <p className="text puesto">Co-founder</p>
+                                    <img src="assets\image 14.png" alt="" />
                                 </div>
                             </div>
                             <div className="container direction b-s card-mentor">
@@ -206,6 +210,7 @@ const Home = () => {
                                     <h3 className="text mentor">Daniel Lopez</h3>
                                     <p className="text rol">Software Engineer</p>
                                     <p className="text puesto">Co-founder</p>
+                                    <img src="assets\image 14.png" alt="" />
                                 </div>
                             </div>
                             <div className="container direction b-s card-mentor">
@@ -216,6 +221,7 @@ const Home = () => {
                                     <h3 className="text mentor">Paul Vidal</h3>
                                     <p className="text rol">Tech Craftsman</p>
                                     <p className="text puesto">Mentor</p>
+                                    <img src="assets\image 14.png" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -230,6 +236,7 @@ const Home = () => {
                                     <h3 className="text mentor">Andres Corral</h3>
                                     <p className="text rol">Product Manager</p>
                                     <p className="text puesto">Co-founder</p>
+                                    <img src="assets\image 14.png" alt="" />
                                 </div>
                             </div>
                             <div className="container direction b-s card-mentor">
@@ -240,6 +247,7 @@ const Home = () => {
                                     <h3 className="text mentor">Daniel Lopez</h3>
                                     <p className="text rol">Software Engineer</p>
                                     <p className="text puesto">Co-founder</p>
+                                    <img src="assets\image 14.png" alt="" />
                                 </div>
                             </div>
                             <div className="container direction b-s card-mentor">
@@ -250,6 +258,7 @@ const Home = () => {
                                     <h3 className="text mentor">Paul Vidal</h3>
                                     <p className="text rol">Tech Craftsman</p>
                                     <p className="text puesto">Mentor</p>
+                                    <img src="assets\image 14.png" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -264,6 +273,7 @@ const Home = () => {
                                     <h3 className="text mentor">Andres Corral</h3>
                                     <p className="text rol">Product Manager</p>
                                     <p className="text puesto">Co-founder</p>
+                                    <img src="assets\image 14.png" alt="" />
                                 </div>
                             </div>
                             <div className="container direction b-s card-mentor">
@@ -274,6 +284,7 @@ const Home = () => {
                                     <h3 className="text mentor">Daniel Lopez</h3>
                                     <p className="text rol">Software Engineer</p>
                                     <p className="text puesto">Co-founder</p>
+                                    <img src="assets\image 14.png" alt="" />
                                 </div>
                             </div>
                             <div className="container direction b-s card-mentor">
@@ -284,12 +295,15 @@ const Home = () => {
                                     <h3 className="text mentor">Paul Vidal</h3>
                                     <p className="text rol">Tech Craftsman</p>
                                     <p className="text puesto">Mentor</p>
+                                    <img src="assets\image 14.png" alt="" />
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
                 </Swiper>
             </div>
+
+            <Footer />
         </>
     )
 }

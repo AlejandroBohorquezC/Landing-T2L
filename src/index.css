@@ -71,6 +71,7 @@ body {
 .big-title {
   font-size: 48px;
   margin-bottom: 5px;
+  margin-top: 30px;
   font-weight: 500;
 }
 
@@ -201,4 +202,59 @@ body {
 .puesto {
   font-size: 16px;
   margin: 0;
+}
+
+.footer {
+  width: 100%;
+  background-color: #F4F6FD;
+}
+
+.footer-text {
+  width: 50%;
+  padding: 50px 0;
+}
+
+.footer-text .big-title {
+  margin: 0;
+}
+
+.footer-images {
+  position: absolute;
+}
+
+.dots {
+  position: relative;
+}
+
+.dot-1 {
+  top: 30px;
+  right: 425px;
+}
+
+.dot-2 {
+  top: 185px;
+  left: 650px;
+}
+
+.semi-circle {
+  top: 85px;
+  right: 730px;
+  height: 200px;
+}
+
+.condiciones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.terminos {
+  font-size: 20px;
+  text-align: center;
+  width: 80%;
+}
+
+.iconos {
+  display: flex;
+  gap: 10px;
 }
