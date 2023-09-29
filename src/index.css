@@ -20,9 +20,13 @@ body {
   align-items: center;
 }
 
+.margin {
+  margin: 70px 0;
+}
+
 .separacion {
   width: 90%;
-  margin: 10px 5%;
+  margin: 30px 5%;
 }
 
 .title {
@@ -119,3 +123,82 @@ body {
   line-height: 21.98px;
 }
 
+.swiper {
+  width: 100%;
+  padding: 50px 0;
+}
+
+.b-s {
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  width: 100% !important;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 300px;
+}
+
+.slider img {
+  width: 170px;
+}
+
+.slider-image {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+
+.testimonio {
+  color: #353535;
+  margin-bottom: 0;
+}
+
+.sin-margin {
+  margin: 0;
+}
+
+.swiper-pagination {
+  bottom: 50px;
+}
+
+.cards-mentores {
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.card-mentor {
+  border-radius: 30px;
+  padding: 25px;
+}
+
+.info-mentor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mentor {
+  color: #000;
+  font-weight: 600;
+  margin: 0;
+}
+
+.rol {
+  color: #00BDD6;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.puesto {
+  font-size: 16px;
+  margin: 0;
+}
