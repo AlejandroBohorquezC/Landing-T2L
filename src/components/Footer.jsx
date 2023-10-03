@@ -25,7 +25,7 @@ const Footer = () => {
                             backgroundColor: '#00BDD6',
                             width: '300px'
                         }}
-                        >Aplica aquí</Button>
+                    >Aplica aquí</Button>
                 </div>
                 <div className="container direction footer-images">
                     <img className="dots dot-2" src="assets\Group 25.png" alt="" />
