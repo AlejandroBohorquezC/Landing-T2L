@@ -1,6 +1,6 @@
-import React from 'react'
+import { Link } from "react-router-dom"
 
-const Card = ({img, title, text}) => {
+const CardRoute = ({img, title, text, id}) => {
   return (
     <div className='card'>
         <div>
@@ -9,10 +9,10 @@ const Card = ({img, title, text}) => {
         <div className='card-texts'>
             <h2 className="card-title">{title}</h2>
             <p className="text">{text}</p>
-            <a className='card-link' href="#">Más...</a>
+            <Link className='card-link' to={`/:${id}`}>Más...</Link>
         </div>
     </div>
   )
 }
 
-export default Card
+export default CardRoute
