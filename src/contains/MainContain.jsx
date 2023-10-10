@@ -73,7 +73,9 @@ const MainContain = () => {
             <h3 className="big-title">¿Todavia no te decides?</h3>
             <p className="text big-size">Uno de nuestros founders te explica un poco más</p>
             <div>
-                <img className='video' src="assets\image 32.png" alt="video" />
+                <a target="blank" href="https://video.drift.com/v/abMTlR2kxGB2ZO7wFb8ZKbDTgRcziuKo6rOqstr45s9k/?bookMeeting=true">
+                    <img className='video' src="assets\image 32.png" alt="video" />
+                </a>
             </div>
         </div>
     </>

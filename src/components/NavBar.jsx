@@ -16,9 +16,9 @@ const NavBar = () => {
                 </a>
             </Grid>
             <Grid container alignItems='center' justifyContent='space-evenly' sx={{width: '50%', display: 'flex'}}>
-                <a href='#rutas' style={{textDecoration: 'none', cursor: 'pointer', fontSize: '24px', fontWeight: '600', color: '#353535'}}>Rutas</a>
-                <a href='#nosotros' style={{textDecoration: 'none', cursor: 'pointer', fontSize: '24px', fontWeight: '600', color: '#353535'}}>Nosotros</a>
-                <a href='#precios' style={{textDecoration: 'none', cursor: 'pointer', fontSize: '24px', fontWeight: '600', color: '#353535'}}>Precios</a>
+                <a href='/#rutas' style={{textDecoration: 'none', cursor: 'pointer', fontSize: '24px', fontWeight: '600', color: '#353535'}}>Rutas</a>
+                <a href='/#nosotros' style={{textDecoration: 'none', cursor: 'pointer', fontSize: '24px', fontWeight: '600', color: '#353535'}}>Nosotros</a>
+                <a href='/#precios' style={{textDecoration: 'none', cursor: 'pointer', fontSize: '24px', fontWeight: '600', color: '#353535'}}>Precios</a>
             </Grid>
         </Grid>
         <Grid container justifyContent='center' sx={{width: '15%'}}>

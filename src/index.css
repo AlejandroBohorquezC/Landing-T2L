@@ -323,3 +323,62 @@ body {
   display: flex;
   gap: 10px;
 }
+
+.banner {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-title {
+  text-align: center;
+  width: 450px;
+}
+
+.color {
+  color: #252525;
+}
+
+.m-b {
+  margin-bottom: 70px;
+}
+
+.css-1g7h10m-MuiPaper-root-MuiAccordion-root:before, .css-wrzgdk-MuiPaper-root-MuiAccordion-root:before, .css-11s1ppl-MuiPaper-root-MuiAccordion-root:before, .css-sjl5vh-MuiPaper-root-MuiAccordion-root:before {
+  display: none;
+}
+
+.css-1g7h10m-MuiPaper-root-MuiAccordion-root:last-of-type {
+  border-radius: 20px !important;
+}
+
+.img-acordeon {
+  height: 50px;
+  margin: auto;
+  margin-right: 40px;
+}
+
+.css-yw020d-MuiAccordionSummary-expandIconWrapper {
+  color: #00BDD6 !important;
+}
+
+.salida-laboral {
+  width: 100%;
+  justify-content: space-around;
+}
+
+.pasos {
+  justify-content: space-evenly;
+  margin: 15px;
+}
+
+.paso {
+  width: 25%;
+}
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+  box-shadow: none !important;
+}
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-expanded:before {
+  opacity: 1 !important;
+}
