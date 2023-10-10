@@ -12,7 +12,7 @@ const NavBar = () => {
         <Grid container sx={{width: '80%'}}>
             <Grid item>
                 <a href="/">
-                    <img style={{width: "300px"}} src="assets\image2.png" alt="logo tech2life" />
+                    <img style={{width: "300px"}} src="/assets/image2.png" alt="logo tech2life" />
                 </a>
             </Grid>
             <Grid container alignItems='center' justifyContent='space-evenly' sx={{width: '50%', display: 'flex'}}>
