@@ -34,6 +34,14 @@ body {
   margin: 30px 5%;
 }
 
+.link-navigation {
+  text-decoration: none; 
+  cursor: pointer; 
+  font-size: 24px; 
+  font-weight: 600; 
+  color: #353535;
+}
+
 .title {
   font-size: 32px;
   font-weight: 700;
@@ -131,6 +139,10 @@ body {
   cursor: pointer;
 }
 
+#nosotros {
+  margin-bottom: 35px;
+}
+
 .swiper {
   width: 100%;
   padding: 50px 0;
@@ -144,6 +156,8 @@ body {
   display: flex;
   justify-content: center;
   width: 100% !important;
+  align-items: center;
+  height: 350px;
 }
 
 .slider {
@@ -343,11 +357,11 @@ body {
   margin-bottom: 70px;
 }
 
-.css-1g7h10m-MuiPaper-root-MuiAccordion-root:before, .css-wrzgdk-MuiPaper-root-MuiAccordion-root:before, .css-11s1ppl-MuiPaper-root-MuiAccordion-root:before, .css-sjl5vh-MuiPaper-root-MuiAccordion-root:before {
+.css-1g7h10m-MuiPaper-root-MuiAccordion-root:before, .css-wrzgdk-MuiPaper-root-MuiAccordion-root:before {
   display: none;
 }
 
-.css-1g7h10m-MuiPaper-root-MuiAccordion-root:last-of-type {
+.css-wrzgdk-MuiPaper-root-MuiAccordion-root:last-of-type {
   border-radius: 20px !important;
 }
 
@@ -366,6 +380,10 @@ body {
   justify-content: space-around;
 }
 
+.medio {
+  justify-content: space-between;
+}
+
 .pasos {
   justify-content: space-evenly;
   margin: 15px;
@@ -375,10 +393,6 @@ body {
   width: 25%;
 }
 
-.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+.css-183mf81-MuiPaper-root-MuiAccordion-root {
   box-shadow: none !important;
-}
-
-.css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-expanded:before {
-  opacity: 1 !important;
 }

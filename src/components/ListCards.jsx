@@ -3,19 +3,22 @@ import CardRoute from './CardRoute'
 
 const ListCards = () => {
   return (
-    <div className="container full-width">
-        {
+    <>
+      <div className="container full-width">
+          {
             rutas.map(({img, text, title, id}) => (
-                <CardRoute
-                    key={id}
-                    img={img}
-                    title={title}
-                    text={text}
-                    id={id}
-                />
-            ))
-        }
-    </div>
+              <CardRoute
+                      key={id}
+                      img={img}
+                      title={title}
+                      text={text}
+                      id={id}
+                  />
+              ))
+          }
+      </div>
+      <div id="nosotros"></div>
+    </>
   )
 }
 

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Accordion, AccordionDetails, AccordionSummary } from '@mui/material'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { questions } from '../data/questions';
 
 const AccordionQuestions = () => {
 
@@ -12,7 +13,31 @@ const AccordionQuestions = () => {
 
   return (
     <>
-        <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+        
+        {
+            questions.map((question, id) => (
+                <Accordion sx={{width: '100%'}} expanded={expanded === `panel${id+1}`} onChange={handleChange(`panel${id+1}`)}>
+                    <AccordionSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls={`panel${id+1}bh-content`}
+                        id={`panel${id+1}bh-header`}
+                    >
+                        <div className="container">
+                            <p className="text big-size color">{question.title}</p>
+                        </div>
+                    </AccordionSummary>
+                    <AccordionDetails
+                        sx={{width: '100%'}}
+                    >
+                        <p className='text big-size'>
+                        {question.contain}
+                        </p>
+                    </AccordionDetails>
+                </Accordion>
+            ))
+        }
+        
+        {/* <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
             <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
                 aria-controls="panel1bh-content"
@@ -171,7 +196,7 @@ const AccordionQuestions = () => {
                 En este nivel te sumergirás en los fundamentos del diseño de productos digitales, aprendiendo cómo ser un Product Designer y explorando los fundamentos de UX/UI. Además, adquirirás conocimientos sobre metodologías de diseño y modelos de comportamiento humano.
                 </p>
             </AccordionDetails>
-        </Accordion>
+        </Accordion> */}
     </>
   )
 }

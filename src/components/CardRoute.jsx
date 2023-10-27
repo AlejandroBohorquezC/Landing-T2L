@@ -9,7 +9,7 @@ const CardRoute = ({img, title, text, id}) => {
         <div className='card-texts'>
             <h2 className="card-title">{title}</h2>
             <p className="text">{text}</p>
-            <Link className='card-link' to={`/:${id}`}>Más...</Link>
+            <Link className='card-link' to={`/route/:${id}`}>Más...</Link>
         </div>
     </div>
   )

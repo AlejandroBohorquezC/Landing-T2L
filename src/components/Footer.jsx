@@ -7,8 +7,8 @@ const Footer = () => {
         <div className="container direction">
             <div className="container footer">
                 <div className="container direction footer-images">
-                    <img className="dots dot-1" src="assets\Group 25.png" alt="" />
-                    <img className="dots semi-circle" src="assets\Subtract.png" alt="" />
+                    <img className="dots dot-1" src="/assets/Group 25.png" alt="" />
+                    <img className="dots semi-circle" src="/assets/Subtract.png" alt="" />
                 </div>
                 <div className="container direction footer-text">
                     <h3 className="big-title">¿Listo para iniciar?</h3>
@@ -28,16 +28,16 @@ const Footer = () => {
                     >Aplica aquí</Button>
                 </div>
                 <div className="container direction footer-images">
-                    <img className="dots dot-2" src="assets\Group 25.png" alt="" />
+                    <img className="dots dot-2" src="/assets/Group 25.png" alt="" />
                 </div>
             </div>
         </div>
         <div className="container condiciones">
             <p className="terminos">2023 Tech2Life • Privacy • Terminos</p>
             <div className="container iconos">
-                <img src="assets\image 29.png" alt="" />
-                <img src="assets\image 28.png" alt="" />
-                <img src="assets\image 14.png" alt="" />
+                <img src="/assets/image 29.png" alt="" />
+                <img src="/assets/image 28.png" alt="" />
+                <img src="/assets/image 14.png" alt="" />
             </div>
         </div>
     </>

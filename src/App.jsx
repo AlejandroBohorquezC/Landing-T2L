@@ -1,10 +1,10 @@
-import LandingRouter from "./router/LandingRouter"
+import MainRouter from "./MainRouter"
 
 
 const App = () => {
   return (
     <>
-      <LandingRouter />
+      <MainRouter />
     </>
   )
 }
