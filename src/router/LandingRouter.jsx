@@ -9,7 +9,7 @@ const LandingRouter = () => {
             <Route path='home' element={<Home />} />
             <Route path='route/:id' element={<RoutePage />} />
 
-            <Route path='/' element={<Navigate to='/home' />} />
+            <Route path='/*' element={<Navigate to='home' />} />
         </Routes>
     </>
   )
