@@ -11,14 +11,14 @@ const NavBar = () => {
     >
         <Grid container sx={{width: '80%'}}>
             <Grid item>
-                <a href="/home">
+                <a href="#/home">
                     <img style={{width: "300px"}} src="/assets/image2.png" alt="logo tech2life" />
                 </a>
             </Grid>
             <Grid container alignItems='center' justifyContent='space-evenly' sx={{width: '50%', display: 'flex'}}>
-                <a href='/home#rutas' className='link-navigation'>Rutas</a>
-                <a href='/home#nosotros' className='link-navigation'>Nosotros</a>
-                <a href='/home#precios' className='link-navigation'>Precios</a>
+                <a href='#/home#rutas' className='link-navigation'>Rutas</a>
+                <a href='#/home#nosotros' className='link-navigation'>Nosotros</a>
+                <a href='#/home#precios' className='link-navigation'>Precios</a>
             </Grid>
         </Grid>
         <Grid container justifyContent='center' sx={{width: '15%'}}>
